@@ -1,0 +1,315 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@section Styles {
+
+    <link rel="stylesheet" href="~/css/Dashboard/Dashboard.css" />
+}
+@section Scripts {
+  
+    <script src="./js/Dashboard/Dashboard.js"></script>
+}@* #563d7c *@
+@* <div class="containner--filter">
+    <button type="button" class="btn btn-secondary">Add Start Location</button>
+    <button type="button" class="btn btn-secondary">Add End Location</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+
+</div> *@
+<div class="containner--map row">
+    <div class="containner--markertable col-md-3">
+        <ul class="nav nav-tabs border-bottom--purple">
+            <li class="nav-item">
+                <input type="radio" id="radio-tab-cluster" name="radio-tab">
+                <label class="nav-link-purple" for="radio-tab-cluster" aria-current="page" href="#">
+                    <i class="fa-solid fa-circle-nodes"></i>
+                    Cluster</label>
+            </li>
+            <li class="nav-item">
+                <input type="radio" id="radio-tab-marker" name="radio-tab" checked>
+                <label class="nav-link-purple" for="radio-tab-marker" aria-current="page" href="#">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Markers</label>
+            </li>
+            <li class="nav-item">
+                <input type="radio" id="radio-tab-config" name="radio-tab">
+                <label class="nav-link-purple" for="radio-tab-config" aria-current="page" href="#">
+                    <i class="fa-solid fa-gears"></i>
+                     Configuration</label>
+            </li>
+        </ul>
+        <div class="nav-contents">
+           
+        </div>
+    </div>
+    <div class="containner--mapview col-md-9">
+        <div class="map-function" style="">
+            <div class="map--autoRouting-category"></div>
+            <div class="map--autoRouting-cluster"></div>
+            <div class="map--autoRouting-datepicker"></div>
+            <div style="
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+    background: white;
+    width: 100px;
+    height:35px;
+">
+                <button class="btn--mapfunction hand" >
+                    <i class="fa-solid fa-hand"></i>
+                </button>
+                <button class="btn--mapfunction drawpolygon">
+                    <i class="fa-solid fa-draw-polygon"></i>
+                </button>
+            </div>
+        </div>
+        <div id="map" class="mapview"></div>
+        <div class="box--status">
+ 
+            <div class="box--green"> </div>
+            <div class="box--orange">
+                
+            </div>
+            <div class="box--red">
+                
+            </div>
+        </div>
+        </div>
+    
+    </div>
+
+<script id="cardTemplate" type="text/x-jquery-tmpl">
+    <div class="direction card--noborder" style="margin-bottom: 1rem;">
+        <a href="#" class="card-header list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true" style="flex-direction: column;align-items: center;">
+                <div style="border-bottom: 2px solid transparent; /* Set a transparent border */border-image: linear-gradient(to bottom right, yellow, purple) 1;width: 100%;justify-content: space-between;display: flex;">
+                  <h3>${h1Text}</h3>
+                  <div class="card-extendinfo">
+                    <small class="opacity-50 text-nowrap">${distance}</small>
+                    <small class="opacity-50 text-nowrap">Khoảng ${duration}</small>
+                 </div>
+            </div>
+           
+            <div class="d-flex gap-2 w-100">
+                <div>
+                    <h6 class="mb-0">${from}</h6>
+                    <p class="mb-0 opacity-75">Đến</p>
+                    <h6 class="mb-0">${to}</h6>
+                </div>
+               
+            </div>
+             <i class="fa-solid fa-caret-down"></i>
+        </a>
+        <div class="card-body route-detail collapsed" style="opacity: 0.7;">
+             <ul class="list-group list-group-flush listItems">
+            </ul>
+        </div>
+    </div>
+</script>
+<script id="mapview-template" type="text/x-jquery-tmpl">
+    <div class="mapview--box" style="
+        background-color:${color};
+        box-shadow: rgba(0, 0, 0, 0.9) 0px 1px 4px -1px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        color: white;
+        margin: 5px 0px;
+        padding:10px;
+        border-radius: 10px;
+    ">
+        <h6 class="mb-0">${frompercent}%-${to_percent}%</h6>
+        <p class="mb-0 opacity-75">Quantity: ${num_trash}</p>
+    </div>
+</script>
+<script id="cluster-template" type="text/x-jquery-tmpl">
+    <div class="card--noborder">
+      <div class="card-header cluster" id="heading-${guid}" data-toggle="collapse" data-target="#collapse-${guid}" aria-expanded="false" aria-controls="collapse${guid}">
+         <h5 class="mb-0" style="justify-content: space-between;align-items: center;display: flex;">
+          </h5>
+       </div>
+       <div id="collapse-${guid}" class="collapse" aria-labelledby="heading-${guid}" data-parent="#accordion">
+         <div class="card-body content">
+           <ul class="list-group markers">
+           </ul>
+           <div class="list"></div>
+         </div>
+       </div>
+     </div>
+</script>
+
+<script id="limarkerincluster-template" type="text/x-jquery-tmpl">
+    <li class="list-group-item" style="display: flex;">
+      ${marker.ID} -- ${marker.FillPercent}%  
+      <div class="form-check">
+        <input class="form-check-input purple" type="radio" name="start_${polygonIndex}" value="">
+        <label class="form-check-label" for="start_${polygonIndex}">
+          Start
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input purple" type="radio" name="end_${polygonIndex}" value="">
+        <label class="form-check-label" for="end_${polygonIndex}">
+          End
+        </label>
+      </div>
+    </li>
+</script>
+
+
+<script id="binFilterTemplate" type="text/x-handlebars-template">
+    <div style="
+        margin: 25px 0px 15px 0px;
+        padding: 15px;
+        justify-content: space-around;
+        flex-direction: row;
+    "class="card">
+      <label class="form-check-label" for="flexCheckDefault" style="
+          font-weight: 500;
+          font-size: large;
+          text-align: center;
+          width: fit-content;
+          background: white;
+          z-index: 10;
+          position: absolute;
+          top: -17px;
+          left: 15px;
+      ">Bin filter</label>
+      <div class="form-check">
+        <input class="form-check-input purple" type="checkbox" value="" id="flexCheckDefault" checked>
+        <label class="form-check-label" for="flexCheckDefault">Empty</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input purple" type="checkbox" value="" id="flexCheckChecked" checked>
+        <label class="form-check-label" for="flexCheckChecked">Medium</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input purple" type="checkbox" value="" id="flexCheckDefault" checked>
+        <label class="form-check-label" for="flexCheckDefault">Full</label>
+      </div>
+    </div>
+</script>
+
+<script id="VehicleCollectConfigTemplate" type="text/x-handlebars-template">
+    <div style="
+        align-items:top;
+        margin: 25px 0px 15px 0px;
+        padding: 15px;
+        justify-content: space-around;
+        flex-direction: column;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    "class="card">
+      <label class="form-check-label" for="flexCheckDefault" style="
+          font-weight: 500;
+          font-size: large;
+          text-align: center;
+          width: fit-content;
+          background: white;
+          z-index: 10;
+          position: absolute;
+          top: -17px;
+          left: 15px;
+      ">Vehicle config</label>
+    </div>
+</script>
+<script id="routingConfigTemplate" type="text/x-handlebars-template">
+    <div style="
+        align-items:top;
+        margin: 25px 0px 15px 0px;
+        padding: 15px;
+        justify-content: space-around;
+        flex-direction: column;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    "class="card">
+      <label class="form-check-label" for="flexCheckDefault" style="
+          font-weight: 500;
+          font-size: large;
+          text-align: center;
+          width: fit-content;
+          background: white;
+          z-index: 10;
+          position: absolute;
+          top: -17px;
+          left: 15px;
+      ">Routing Config</label>
+    </div>
+</script>
+
+<script id="ConfigurationTabContentTemplate" type="text/x-handlebars-template">
+    <div style="
+        align-items:top;
+        margin: 25px 0px 15px 0px;
+        padding: 15px;
+        justify-content: space-around;
+        flex-direction: column;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    "class="card">
+      <label class="form-check-label" for="flexCheckDefault" style="
+          font-weight: 500;
+          font-size: large;
+          text-align: center;
+          width: fit-content;
+          background: white;
+          z-index: 10;
+          position: absolute;
+          top: -17px;
+          left: 15px;
+      ">Config</label>
+    </div>
+</script>
+
+<script type="text/x-jquery-tmpl" id="clusterSubInfo">
+    <div class="cluster--info" style="
+        display: flex;
+        background: transparent;
+        height: 35px;
+        width: 100px;
+        opacity: 0.9;
+    ">
+        <div class="orangeCount" style="
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            height: 100%;
+            background: orange;
+            width: 50px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        ">
+        </div>
+        <div class="redCount" style="
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            background: red;
+            height: 100%;
+            width: 50px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        ">
+            ${redCount}
+        </div>
+    </div>
+</script>
+
+<script id="modal-template" type="text/x-jquery-tmpl">
+    <div class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">${title}</h5>
+            <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>${content}</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn purple btn-confirm">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</script>

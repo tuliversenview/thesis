@@ -1,0 +1,36 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "AntColony_namespace";
+
+package antcolony;
+
+// The greeting service definition.
+service AntColony {
+  // Sends a greeting
+  rpc TSPRoute (RouteRequest) returns (RouteReponse);
+}
+
+// The request message containing the user's name.
+message RouteRequest {
+    string matrixdistance = 1; // 2D array represented as a string
+    string heuristicmatrix=2;
+    string ids = 3;
+    float init_phemon = 4;
+    float evaporationrate = 5;
+    int32 q = 6;
+    int32 num_ants = 7;
+    int32 episode = 8;
+    float alpha = 9;
+    float beta = 10;
+    int32 srcid=12;
+    int32 desid=13;
+}
+
+message SortIDs{
+    repeated int32 id = 1;
+}
+// The response message containing the greetings.
+message RouteReponse {
+    SortIDs sortids=1;
+    float totaldistance=2;
+}

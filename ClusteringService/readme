@@ -1,0 +1,3 @@
+    B1 tạo file .proto trong /protoc/*.proto
+    B2 generate code python -m grpc_tools.protoc -I protos --python_out=. --grpc_python_out=. protos/*.proto
+    B3 

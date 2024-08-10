@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+option csharp_namespace = "TSP_client";
+
+service Cluster {
+    rpc ProcessMarkers(MarkersData) returns (ClusterResponse);
+}
+
+message MarkerData {
+    int32 ID = 1;
+    double Lat = 2;
+    double Lng = 3;
+    
+}
+
+message MarkersData {
+    repeated MarkerData markers = 1;
+}
+
+message ClusterResponse {
+    string message = 1;
+}

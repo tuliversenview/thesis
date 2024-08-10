@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@section Styles {
+
+    <link rel="stylesheet" href="~/css/Category/UserManager.css" />
+}
+@section Scripts {
+    <script src="~/js/Category/UserManager.js"></script>
+}
+<div class="containner--map row">
+    <div class="control">
+        <div class="searchbox">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" id="input_grid_search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </div>
+    </div>
+     <div id="grid"></div>
+
+</div>
+
+
+<div class="modal fade" id="userinfo-modal" data-bs-backdrop="static"
+     data-bs-keyboard="false" tabindex="-1" aria-labelledby="scroll-long-outer-modal"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable modal-xl" style="
+       max-height: 85%;">
+        <div class="modal-content" style="height:-webkit-fill-available">
+            <div class="modal-header d-flex align-items-center">
+                <h4 class="modal-title" id="myLargeModalLabel">EliasKennedy17</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <iframe src="/workflow/taskbuilder" title="W3Schools Free Online Web Tutorials" style="height:inherit"></iframe>
+        </div>
+    </div>
+</div>
+<script id="userTemplate" type="text/x-jquery-tmpl">
+    <div>
+      <div class="d-flex no-block align-items-center">
+      <div class="me-3">
+        <img src="${imageurl}" alt="user" class="rounded-circle" width="45">
+      </div>
+      <div class="">
+        <h6 class="mb-0"><a>${username}</a></h6>
+      </div>
+    </div>
+    </div>
+
+</script>
+<script id="commandTemplate" type="text/x-jquery-tmpl">
+    <div>
+    <div class="action-btn" data-userid="${userid}">
+     <button><i class="fa-solid fa-eye"></i></button>
+     <button class="edit-btn"><i class="fa-solid fa-pen"></i></button>
+     <button><i class="fa-solid fa-trash"></i></button>
+    </div>
+     </div>
+</script>
+

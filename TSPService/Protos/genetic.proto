@@ -1,0 +1,33 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "namespace_Genetic";
+
+package genetic;
+
+// The greeting service definition.
+service Genetic {
+  // Sends a greeting
+  rpc TSPRoute (RouteRequest) returns (RouteReponse);
+}
+
+// The request message containing the user's name.
+message RouteRequest {
+    string matrixdistance = 1; // 2D array represented as a string
+    string ids = 2;
+    int32 srcid=3;
+    int32 desid=4;
+    int32 temperture=5;
+    int32 initpopulation=6;
+
+    //string antcolonyids=7;
+    //float antcolonydistance=8;
+}
+
+message SortIDs{
+    repeated int32 id = 1;
+}
+// The response message containing the greetings.
+message RouteReponse {
+    SortIDs sortids=1;
+    float totaldistance=2;
+}

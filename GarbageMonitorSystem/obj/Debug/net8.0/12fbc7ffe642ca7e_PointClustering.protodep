@@ -1,0 +1,2 @@
+obj\Debug\net8.0\Protos/PointClustering.cs \
+obj\Debug\net8.0\Protos/PointClusteringGrpc.cs: Protos/PointClustering.proto

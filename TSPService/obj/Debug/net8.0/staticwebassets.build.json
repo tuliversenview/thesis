@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "roz742ye4cHZjUu/Wa9VIwn1ESVpZsXxS1FNwWcTa5I=",
+  "Source": "TSP_service",
+  "BasePath": "_content/TSP_service",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

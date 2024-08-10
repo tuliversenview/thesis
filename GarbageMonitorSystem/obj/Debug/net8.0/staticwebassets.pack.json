@@ -1,0 +1,413 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GarbageMonitorSystem.bundle.scp.css",
+      "PackagePath": "staticwebassets\\GarbageMonitorSystem.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\css\\Category\\UserManager.css",
+      "PackagePath": "staticwebassets\\css\\Category\\UserManager.css"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\css\\Dashboard\\Dashboard.css",
+      "PackagePath": "staticwebassets\\css\\Dashboard\\Dashboard.css"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\css\\DatePicker\\bootstrap-datetimepicker.min.css",
+      "PackagePath": "staticwebassets\\css\\DatePicker\\bootstrap-datetimepicker.min.css"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\css\\Login\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login\\Login.css"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\avt\\default.png",
+      "PackagePath": "staticwebassets\\img\\avt\\default.png"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\directions\\clear.png",
+      "PackagePath": "staticwebassets\\img\\directions\\clear.png"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\directions\\depart.png",
+      "PackagePath": "staticwebassets\\img\\directions\\depart.png"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\directions\\elevator.png",
+      "PackagePath": "staticwebassets\\img\\directions\\elevator.png"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\directions\\enter-station.png",
+      "PackagePath": "staticwebassets\\img\\directions\\enter-station.png"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\directions\\exit-left.png",
+      "PackagePath": "staticwebassets\\img\\directions\\exit-left.png"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\directions\\exit-right.png",
+      "PackagePath": "staticwebassets\\img\\directions\\exit-right.png"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\directions\\exit-station.png",
+      "PackagePath": "staticwebassets\\img\\directions\\exit-station.png"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\directions\\follow-signs.png",
+      "PackagePath": "staticwebassets\\img\\directions\\follow-signs.png"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\directions\\left.png",
+      "PackagePath": "staticwebassets\\img\\directions\\left.png"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\directions\\merge.png",
+      "PackagePath": "staticwebassets\\img\\directions\\merge.png"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\directions\\right.png",
+      "PackagePath": "staticwebassets\\img\\directions\\right.png"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\directions\\roundabout-left.png",
+      "PackagePath": "staticwebassets\\img\\directions\\roundabout-left.png"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\directions\\roundabout-right.png",
+      "PackagePath": "staticwebassets\\img\\directions\\roundabout-right.png"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\directions\\straight.png",
+      "PackagePath": "staticwebassets\\img\\directions\\straight.png"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\directions\\turn-left.png",
+      "PackagePath": "staticwebassets\\img\\directions\\turn-left.png"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\directions\\turn-right.png",
+      "PackagePath": "staticwebassets\\img\\directions\\turn-right.png"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\directions\\turn-sharp-left.png",
+      "PackagePath": "staticwebassets\\img\\directions\\turn-sharp-left.png"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\directions\\turn-sharp-right.png",
+      "PackagePath": "staticwebassets\\img\\directions\\turn-sharp-right.png"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\directions\\turn-slight-left.png",
+      "PackagePath": "staticwebassets\\img\\directions\\turn-slight-left.png"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\directions\\turn-slight-right.png",
+      "PackagePath": "staticwebassets\\img\\directions\\turn-slight-right.png"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\directions\\uturn-left.png",
+      "PackagePath": "staticwebassets\\img\\directions\\uturn-left.png"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\directions\\uturn-right.png",
+      "PackagePath": "staticwebassets\\img\\directions\\uturn-right.png"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\map_route.png",
+      "PackagePath": "staticwebassets\\img\\map_route.png"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\img\\mobile\\mobilelogin.jpg",
+      "PackagePath": "staticwebassets\\img\\mobile\\mobilelogin.jpg"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\js\\Category\\UserManager.js",
+      "PackagePath": "staticwebassets\\js\\Category\\UserManager.js"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\js\\Dashboard\\Dashboard.js",
+      "PackagePath": "staticwebassets\\js\\Dashboard\\Dashboard.js"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\js\\DatePicker\\bootstrap-datetimepicker.min.js",
+      "PackagePath": "staticwebassets\\js\\DatePicker\\bootstrap-datetimepicker.min.js"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\js\\DatePicker\\jquery-fxtime.js",
+      "PackagePath": "staticwebassets\\js\\DatePicker\\jquery-fxtime.js"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\js\\DatePicker\\moment.min.js",
+      "PackagePath": "staticwebassets\\js\\DatePicker\\moment.min.js"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\js\\Login\\Login.js",
+      "PackagePath": "staticwebassets\\js\\Login\\Login.js"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\js\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\js\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\js\\signalr\\dist\\browser\\signalr.min.js",
+      "PackagePath": "staticwebassets\\js\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\data\\visualstudio\\WasteManagerSystem\\GarbageMonitorSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.GarbageMonitorSystem.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.GarbageMonitorSystem.props",
+      "PackagePath": "build\\GarbageMonitorSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.GarbageMonitorSystem.props",
+      "PackagePath": "buildMultiTargeting\\GarbageMonitorSystem.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.GarbageMonitorSystem.props",
+      "PackagePath": "buildTransitive\\GarbageMonitorSystem.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,28 @@
+﻿syntax = "proto3";
+
+service PointClustering {
+    rpc Clustering(MarkersData) returns (ClusterResponse);
+}
+//request
+message MarkersData {
+    repeated MarkerData markers = 1;
+    int32  numCluster = 2;
+}
+//reponse
+message ClusterResponse {
+     repeated Cluster clusters = 1;
+}
+//child request
+message MarkerData {
+    double Lat = 2;
+    double Lng = 3;  
+}
+//child reponse
+message Cluster{
+     repeated Coordinate coordinates = 1;
+}
+message Coordinate { 
+    double Lat = 1;
+    double Lng = 2; 
+}
+

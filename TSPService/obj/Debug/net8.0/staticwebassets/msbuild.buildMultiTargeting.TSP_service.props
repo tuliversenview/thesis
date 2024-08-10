@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TSP_service.props" />
+</Project>

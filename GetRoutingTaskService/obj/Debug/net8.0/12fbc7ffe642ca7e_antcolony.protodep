@@ -1,0 +1,2 @@
+obj\Debug\net8.0\Protos/Antcolony.cs \
+obj\Debug\net8.0\Protos/AntcolonyGrpc.cs: Protos/antcolony.proto

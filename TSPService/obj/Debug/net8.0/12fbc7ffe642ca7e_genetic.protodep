@@ -1,0 +1,2 @@
+obj\Debug\net8.0\Protos/Genetic.cs \
+obj\Debug\net8.0\Protos/GeneticGrpc.cs: Protos/genetic.proto

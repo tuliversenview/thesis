@@ -1,0 +1,23 @@
+﻿version: '3.8'
+
+services:
+  service-1:
+    build:
+      context: .
+      dockerfile: dockerfile
+    ports:
+      - "5001:6000"
+    image: tspserviceimage  # Specify the image name to use
+
+  service-2:
+    image: tspserviceimage  # Reference the image name used by app0
+    ports:
+      - "5002:6000"
+  service-3:
+    image: tspserviceimage  # Reference the image name used by app0
+    ports:
+      - "5003:6000"
+  service-4:
+    image: tspserviceimage  # Reference the image name used by app0
+    ports:
+      - "5004:6000"

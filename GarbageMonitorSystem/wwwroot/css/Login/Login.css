@@ -1,0 +1,158 @@
+﻿body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('https://bionutrica.uk/cdn/shop/files/1462_1.jpg?v=1712398207&width=1780') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+.container {
+    display: flex;
+    width: 1100px;
+   
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image-container {
+    flex: 1;
+    background: url('https://bionutrica.uk/cdn/shop/files/1462_1.jpg?v=1712398207&width=1780') no-repeat center center;
+    background-size: cover;
+}
+
+.form-container {
+    flex: 1;
+    background-color: #fff;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-container h3 {
+    color: #835bbe;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 500;
+    align-self: center;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+    .form-group label {
+        font-size: 18px;
+        color: #555;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+.form-control {
+    width: 100%;
+    padding: 16px 0px 16px 50px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .form-control:focus,
+    .form-control:hover {
+        border-color: #835bbe;
+        box-shadow: 0 0 5px rgba(131, 91, 190, 0.5);
+        outline: none;
+    }
+
+.form-group i {
+    position: absolute;
+    left: 15px;
+    top: 67%;
+    transform: translateY(-50%);
+    color: #777;
+    transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+.form-control:focus + i,
+.form-control:hover + i {
+    transform: translateY(-50%) scale(1.2);
+    font-size: 22px;
+}
+
+.btn-primary {
+    width: 50%;
+    padding: 16px;
+    background-color: #563d7c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .btn-primary:hover {
+        background-color: #835bbe;
+        box-shadow: 0 0 5px rgba(131, 91, 190, 0.5);
+    }
+
+.text-center {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+    .text-center a {
+        color: #563d7c;
+        text-decoration: none;
+    }
+
+        .text-center a:hover {
+            text-decoration: underline;
+        }
+
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+    .social-icons a {
+        color: #777;
+        margin-left: 10px;
+        font-size: 20px;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+        .social-icons a:hover {
+            color: #835bbe;
+        }
+
+.form-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.form-check-input {
+    margin-right: 10px;
+}
+
+.form-check-label {
+    margin: 0;
+    font-size: 16px;
+}
+
+.loginbtn {
+    display: flex;
+    justify-content: center;
+}

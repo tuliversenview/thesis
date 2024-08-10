@@ -1,0 +1,2 @@
+obj\Debug\net8.0\Protos/Nearestneigbor.cs \
+obj\Debug\net8.0\Protos/NearestneigborGrpc.cs: Protos/nearestneigbor.proto

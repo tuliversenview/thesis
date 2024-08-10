@@ -1,0 +1,1 @@
+docker run --env=REDIS_VERSION=7.2.5 --env=REDIS_DOWNLOAD_URL=http://download.redis.io/releases/redis-7.2.5.tar.gz --env=REDIS_DOWNLOAD_SHA=5981179706f8391f03be91d951acafaeda91af7fac56beffb2701963103e423d --volume=/data --network=bridge --workdir=/data -p 6379:6379 --restart=no --runtime=runc -d redis

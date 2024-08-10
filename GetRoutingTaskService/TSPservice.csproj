@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Protos\antcolony.proto" />
+    <None Remove="Protos\cluster.proto" />
+    <None Remove="Protos\dynamicprogram.proto" />
+    <None Remove="Protos\genetic.proto" />
+    <None Remove="Protos\nearestneigbor.proto" />
+    <None Remove="Protos\PointClustering.proto" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.27.2" />
+    <PackageReference Include="Grpc.Net.Client" Version="2.63.0" />
+    <PackageReference Include="Grpc.Net.ClientFactory" Version="2.63.0" />
+    <PackageReference Include="Grpc.Tools" Version="2.64.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Protobuf Include="Protos\antcolony.proto" GrpcServices="Client" />
+    <Protobuf Include="Protos\cluster.proto" GrpcServices="Client" />
+    <Protobuf Include="Protos\dynamicprogram.proto" GrpcServices="Client" />
+    <Protobuf Include="Protos\genetic.proto" GrpcServices="Client" />
+    <Protobuf Include="Protos\nearestneigbor.proto" GrpcServices="Client" />
+    <Protobuf Include="Protos\PointClustering.proto" GrpcServices="Client" />
+  </ItemGroup>
+
+</Project>
