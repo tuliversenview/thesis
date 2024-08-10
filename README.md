@@ -1,17 +1,17 @@
 **Nôi dung Source Code**
 
-**ClusteringService**
+ClusteringService
   -  dùng để phân cụm cho các điểm dữ liệu thùng rác trên google map
-**GarbageMonitorSystem**
+GarbageMonitorSystem
   - Web app dùng cho manager quản lý các khu vực thùng rác
-**GetRoutingTaskService**
+GetRoutingTaskService
   - Service lấy các request Routing đẩy cho các TSP service
-**IOT**
+IOT
   - Bao  gồm code cho các sensor (main) và các thư  viện kèm theo (library)
-**MobileApp**
+MobileApp
   - Mobile app xử dụng React Expo dùng cho tài xế thực hiện thu gom
-**Storage**
+Storage
   - SQL : file backup của DB
   - Redis : docker run command
-**TSPService**
+TSPService
   - Service dùng để tìm đường đi ngắn nhất
